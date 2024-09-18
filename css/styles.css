@@ -73,7 +73,7 @@
 
  .title-section .effective-name {
    letter-spacing: 0.02em;
-   background: #2e2f42;
+   background-color: #2e2f42;
   }
 
   .effective-name {
@@ -94,11 +94,12 @@
   background-color: #4D5AE5 
   }
 
-   .btn-service:hover {
+   .btn-service:hover
+   .btn-service:focus {
     font-weight: 600;
     color: #fff;
     background-color: #404BBF;
-  }
+    }
 
   /* ========= /PAGE SOLUTIONS ============ */
 
