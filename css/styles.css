@@ -72,7 +72,8 @@
 /* ========= PAGE SOLUTIONS ============ */
 
  .title-section {
-  background: #2e2f42;
+   letter-spacing: 0.02em;
+   background: #2e2f42;
   }
 
   .effective-name {
@@ -88,10 +89,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
- 
-  background: #404bbf;
- }
+  background-color: #4D5AE5 
+  }
+
    .btn-service:hover {
     font-weight: 600;
     color: #fff;
@@ -125,6 +127,7 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -138,6 +141,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -152,7 +156,6 @@
 .page-footer {
   font-family: "Raleway", sans-serif;
   background: #2e2f42;
-
 }
 
 .footer-logo .logo-part {
