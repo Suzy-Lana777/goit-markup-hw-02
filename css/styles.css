@@ -71,7 +71,7 @@
 
 /* ========= PAGE SOLUTIONS ============ */
 
- .title-section {
+ .title-section .effective-name {
    letter-spacing: 0.02em;
    background: #2e2f42;
   }
@@ -97,6 +97,7 @@
    .btn-service:hover {
     font-weight: 600;
     color: #fff;
+    background-color: #404BBF;
   }
 
   /* ========= /PAGE SOLUTIONS ============ */
