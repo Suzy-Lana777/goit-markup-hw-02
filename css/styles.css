@@ -71,12 +71,15 @@
 
 /* ========= PAGE SOLUTIONS ============ */
 
- .title-section .effective-name {
-   letter-spacing: 0.02em;
+ .title-section {
    background-color: #2e2f42;
   }
 
-  .effective-name {
+ .title-section .effective-name {
+   letter-spacing: 0.02em;
+  }
+
+ .effective-name {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -84,18 +87,18 @@
     color :#fff;
   }
 
-.btn-service {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4D5AE5 
-  }
+ .btn-service {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5 
+   }
 
-   .btn-service:hover
-   .btn-service:focus {
+  .btn-service:hover,
+  .btn-service:focus {
     font-weight: 600;
     color: #fff;
     background-color: #404BBF;
